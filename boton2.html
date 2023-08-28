@@ -2,11 +2,31 @@
 <html>
     <head>
         <title>Botón_2</title>
+        <h1 style="background-color:palevioletred;">Enlazar botones con otro html</h1>
+        <button>Inicio</button>
+        <button>Contacto</button>
+        <button>Mi perfil</button>
     </head>
     <body>
         <h1>Otro Botón </h1>
         <p>Para crear un segundo boton crearemos otra funcion: function redirigirboton2() {
             window.location.href="boton2.html";
         }</p>
+        <h2 style="color: chartreuse;">Crear inputs</h2>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <input type="submit" value="Enviar">
+            <p>La etiqueta 'form> se utiliza para crear un formulario en HTML. Los formularios son elementos que permiten a los usuarios enviar datos al servidor. En este caso, estamos creando un formulario en el que el usuario puede introducir su dirección de correo electrónico.</p>
+            <p>La etiqueta <label> se utiliza para proporcionar una etiqueta descriptiva para un campo de entrada. El atributo for enlaza esta etiqueta con un campo de entrada específico mediante el valor de su atributo id.</p>
+            <p>La etiqueta 'input> se utiliza para crear campos de entrada en formularios. En este caso, estamos creando un campo de entrada de tipo email. Aquí están los atributos utilizados:
+                type="email": Indica que estamos esperando una dirección de correo electrónico.
+                id="email": Asocia este campo de entrada con la etiqueta 'label> utilizando el mismo valor de id.
+                name="email": Es el nombre del campo que se utilizará cuando se envíe el formulario.
+                required: Hace que el campo sea obligatorio, lo que significa que el usuario debe introducir información antes de enviar el formulario.</p>
+            <p> utilizando la etiqueta 'input>. El atributo type="submit" indica que este es un botón de envío que enviará el formulario. El atributo value="Enviar" establece el texto que se mostrará en el botón.
+                html
+                </p>
     </body>
 </html>
