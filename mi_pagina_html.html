@@ -3,17 +3,32 @@
     <head>
         <link rel="stylesheet" href="styles.css">
         <title >Mi primer HTML</title>
+        <script>
+            function boton1()
+            {
+                window.location.href="boton1.html"
+            }
+            function boton_2()
+            {
+                window.location.href="boton_2.html"
+            }
+            function boton3()
+            {
+                window.location.href="boton3.html"
+            }
+            
+        </script>
     </head>
     <body>
         <h1>PÁRRAFOS</h1>
         <p>Un párrafo en HTML se crea utilizando la etiqueta"p". Esta etiqueta se utiliza para definir un bloque de texto que representa un párrafo en una página web.</p>
         <p>Podemos escribir tantos parrafos como queramos.</p>
         <h2>BOTONES</h2>
-        <button>Botón 1</button>
-        <button>Botón 2</button>
+        <button onclick="boton1()">Botón 1</button>
+        <button onclick="boton_2()">Botón 2</button>
         <br>
         <br>
-        <button>Botón 3</button>
+        <button onclick="boton3()">Botón 3</button>
         <h3>IMAGENES Y ENLACES</h3>
         <p>Para insertar una imagen etiqueta 'img + atributo src, donde se coloca el enlace limpio de la imagen, atributo alt para añadir una descripción de la imagen y los atributos width y height para definir el alto y ancho de la imagen</p>
         <img src="https://imgs.search.brave.com/f_g1M7l3MSqhGhS6R5p3HFJ0OSADqsK0Xf_tt31tzik/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9ibG9n/Lmh1YnNwb3QuZXMv/aHViZnMvbWVkaWEv/aW1hZ2VuaHRtbGVq/ZW1wbG8ucG5n" alt="HTML5 IMAGEN" width="50" height="50">
